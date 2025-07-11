@@ -39,11 +39,7 @@ const html = `
         font-size: calc(62rem / 16);
       }
       body {
-        background-color: black;
-        color; white;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding-top: 50px
+      
       }
       section {
         border-radius: 1em;
