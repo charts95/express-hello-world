@@ -13,7 +13,7 @@ const html = `
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hello from Intumit!</title>
+    <title>Hello World from Intumit!</title>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script>
       setTimeout(() => {
@@ -39,7 +39,11 @@ const html = `
         font-size: calc(62rem / 16);
       }
       body {
-        background: white;
+        background-color: black;
+        color; white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 50px
       }
       section {
         border-radius: 1em;
@@ -54,7 +58,7 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Render!
+      Hello World from Intumit!
     </section>
   </body>
 </html>
